@@ -40,14 +40,14 @@ regex_string_to_hide = '\[var::(\w*)\]'
 regex_string_to_hide_find = '\[var::'+variable_name_ex+'\]'
 
 #Office informations
-template_file = repository+r"\Example\Template\template.doc" #Path to the template file used for generate malicious files (To be modified)
+template_file = repository+r"\Template\template.doc" #Path to the template file used for generate malicious files (To be modified)
 filename_list = repository+r"\Example\Lists\filename_list.txt" #Path to the list that contains the filename of the malicious files that will be generated (To be modified)
 
 #saving informations
-path_gen_files = repository+r"\Example\Results" #Path were results will be saved (To be modified)
+path_gen_files = repository+r"\Results" #Path were results will be saved (To be modified)
 
 #Malicious VBS Information:
 #All data you want to encrypt and include in your doc
-original_vba_file = repository+r"\Example\Orignal_VBA\original_vba_prepared.vbs" #Path the prepared VBA files (To be modified)
+original_vba_file = repository+r"\Orignal_VBA\original_vba_prepared.vbs" #Path the prepared VBA files (To be modified)
 trigger_function_name =  "Test" #Function that you want to auto_trigger (in your original_vba_file) (To be modified)
 string_to_hide = {"domain_name":"http://www.test.com", "path_to_save":r"C:\tmp\toto"}
